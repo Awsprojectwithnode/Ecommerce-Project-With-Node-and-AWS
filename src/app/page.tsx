@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Footer from "@/components/Footer";
+import ProductCard from "@/components/ProductCard";
 
 export default function Home() {
   return (
     <main>
-      Start here
+      <ProductCard/>
     </main>
   )
 }
